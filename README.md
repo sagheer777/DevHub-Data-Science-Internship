@@ -46,6 +46,8 @@ Manual verification of credit profiles is highly inefficient and prone to human 
            0       0.87      0.97      0.92      1593 (Stayed)
            1       0.77      0.45      0.57       407 (Churned)
 
+-----
+
 ### 3.Predicting Insurance Claim Amounts (Health-Tech Regression Project) 🏥📉
 An end-to-end regression modeling pipeline developed to estimate medical insurance costs based on individual health habits and demographic metrics. The project analyzes personal metrics to predict explicit target charges with high statistical accuracy.
 
