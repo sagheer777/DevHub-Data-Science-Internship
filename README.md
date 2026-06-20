@@ -45,3 +45,34 @@ Manual verification of credit profiles is highly inefficient and prone to human 
 
            0       0.87      0.97      0.92      1593 (Stayed)
            1       0.77      0.45      0.57       407 (Churned)
+
+### 3.Predicting Insurance Claim Amounts (Health-Tech Regression Project) 🏥📉
+An end-to-end regression modeling pipeline developed to estimate medical insurance costs based on individual health habits and demographic metrics. The project analyzes personal metrics to predict explicit target charges with high statistical accuracy.
+
+📝 Project Overview
+Accurate cost forecasting is vital for modern health-tech and insurance underwriting. This project uncovers hidden non-linear relationships across user physical profiles (such as age, BMI, and smoker status) and isolates key financial risk factors using a supervised Linear Regression model.
+
+🛠️ Tech Stack & Libraries
+Language: Python
+
+Data Wrangling: Pandas, NumPy
+
+Data Visualization: Matplotlib, Seaborn
+
+Machine Learning: Scikit-Learn (sklearn)
+
+📊 Model Performance & Evaluation
+Mean Absolute Error (MAE): $4,181.19
+
+Root Mean Squared Error (RMSE): $5,796.28
+
+⚡ Feature Importance & Insights (Model Coefficients)
+The model extracted clear directional weights showing the mathematical impact of each feature on base healthcare charges:
+
+smoker_yes (+23,651.13): Being a smoker has the single most dramatic positive correlation with total billing.
+
+children (+425.28): Each additional dependent moderately scales up base claim expectations.
+
+bmi (+337.09): Body Mass Index provides a steady upward scaling parameter for risk pooling.
+
+age (+256.98): Charges progress reliably in a linear fashion for every year older a user gets.
